@@ -5,6 +5,7 @@ body {
 aside {
     background-color: darkcyan;
     color: whitesmoke;
+    padding: 5px;
 }
 
 footer {
@@ -13,6 +14,7 @@ footer {
 
 h1 {
     font-family: monospace;
+    border-block-end-color: orange
 }
 
 p {
