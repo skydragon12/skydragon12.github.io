@@ -7,6 +7,10 @@ aside {
     color: whitesmoke;
 }
 
+footer {
+    background-color: black
+}
+
 h1 {
     font-family: monospace;
 }
@@ -18,3 +22,4 @@ p {
 a {
     color: cyan;
 }
+
