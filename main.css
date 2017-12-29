@@ -30,5 +30,6 @@ a {
 h5 {
     background-color: black;
     border: 3px;
-    border-block-end-color: orange
+    border-block-end-color: orange;
+    color: whitesmoke
 }
