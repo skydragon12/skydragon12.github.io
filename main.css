@@ -1,11 +1,20 @@
 body {
-    background-color: white;
+    background-color: orange;
 }
 
 aside {
     background-color: darkcyan;
+    color: whitesmoke;
 }
 
 h1 {
-    font-family: monospace
+    font-family: monospace;
+}
+
+p {
+    font-family: monospace;
+}
+
+a {
+    color: cyan;
 }
