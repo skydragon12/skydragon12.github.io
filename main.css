@@ -5,3 +5,7 @@ body {
 aside {
     background-color: darkcyan;
 }
+
+h1 {
+    font-family: monospace
+}
