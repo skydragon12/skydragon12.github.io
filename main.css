@@ -5,19 +5,16 @@ body {
 aside {
     background-color: darkcyan;
     color: whitesmoke;
-    border: 5px;
-    border-block-end-color: dimgray;
+    border: 5px solid dimgray
 }
 h5 {
-    border: 3px;
-    border-block-end-color: orange;
+    border: 3px solid dimgray;
     color: whitesmoke;
 }
 
 h1 {
     font-family: monospace;
-    border: 3px;
-    border-block-end-color: dimgray;
+    border: 3px solid dimgray;
 }
 
 p {
@@ -26,13 +23,13 @@ p {
 
 a {
     color: blue;
-    border-left-color: dimgray;
+    
     border: 2px;
+    border-left-color: dimgray;
 }
 
 footer {
     background-color: black;
     color: whitesmoke;
-    border: 1px;
-    border-block-end-color: dimgray
+    border: 1px solid dimgray
 }
