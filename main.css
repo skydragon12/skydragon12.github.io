@@ -19,11 +19,11 @@ h1 {
 
 p {
     font-family: monospace;
+    border-left: 3px double lightseagreen
 }
 
 a {
     color: blue;
-    border: 3px solid left: dimgray;
 }
 
 footer {
