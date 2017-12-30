@@ -8,12 +8,10 @@ aside {
     border: 5px;
     border-block-end-color: dimgray;
 }
-
-footer {
-    background-color: black;
+h5 {
+    border: 3px;
+    border-block-end-color: orange;
     color: whitesmoke;
-    border: 1px;
-    border-block-end-color: dimgray
 }
 
 h1 {
@@ -28,12 +26,13 @@ p {
 
 a {
     color: blue;
-    border-left-color: dimgray
-    border: 2px
+    border-left-color: dimgray;
+    border: 2px;
 }
 
-h5 {
-    border: 3px;
-    border-block-end-color: orange;
+footer {
+    background-color: black;
     color: whitesmoke;
+    border: 1px;
+    border-block-end-color: dimgray
 }
