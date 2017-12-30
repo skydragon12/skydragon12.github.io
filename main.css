@@ -6,19 +6,20 @@ aside {
     background-color: darkcyan;
     color: whitesmoke;
     border: 5px;
-    border-block-end-color: orange;
+    border-block-end-color: dimgray;
 }
 
 footer {
     background-color: black;
     color: whitesmoke;
     border: 1px;
+    border-block-end-color: dimgray
 }
 
 h1 {
     font-family: monospace;
     border: 3px;
-    border-block-end-color: orange;
+    border-block-end-color: dimgray;
 }
 
 p {
@@ -27,6 +28,8 @@ p {
 
 a {
     color: blue;
+    border-left-color: dimgray
+    border: 2px
 }
 
 h5 {
