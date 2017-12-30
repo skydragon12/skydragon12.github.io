@@ -11,7 +11,8 @@ aside {
 
 footer {
     background-color: black;
-    color: whitesmoke
+    color: whitesmoke;
+    padding: 3px
 }
 
 h1 {
@@ -29,8 +30,7 @@ a {
 }
 
 h5 {
-    background-color: black;
     border: 3px;
     border-block-end-color: orange;
-    color: whitesmoke
+    color: whitesmoke;
 }
