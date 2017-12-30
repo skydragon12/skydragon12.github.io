@@ -5,7 +5,7 @@ body {
 aside {
     background-color: darkcyan;
     color: whitesmoke;
-    border: 5px solid dimgray
+    border: 3px solid dimgray
 }
 h5 {
     border: 3px solid dimgray;
@@ -23,13 +23,12 @@ p {
 
 a {
     color: blue;
-    
-    border: 2px;
+    border: 3px solid;
     border-left-color: dimgray;
 }
 
 footer {
     background-color: black;
     color: whitesmoke;
-    border: 1px solid dimgray
+    border: 3px solid dimgray
 }
