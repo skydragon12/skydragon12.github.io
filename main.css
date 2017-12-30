@@ -19,6 +19,9 @@ h1 {
 
 p {
     font-family: monospace;
+}
+
+section {
     border-left: 3px double lightseagreen
 }
 
