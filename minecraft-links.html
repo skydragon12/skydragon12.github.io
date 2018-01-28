@@ -4,6 +4,7 @@
     All The Minecraft Links You&rsquo;ll Ever Need
     </title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    
   </head>
   </div>
 <body>
@@ -15,7 +16,7 @@
       <ul>
         <li>Home</li>
         <li>Social Media</li>
-        <li></li>
+        <li><a onclick="zap()">Downloads</a></li>
         <li>Information</li>
       </ul>
     </nav>
@@ -29,16 +30,6 @@
   <div>
     <h5>If you have any questions or want a new link on this page, click on the Email Me link.</h5>
   </div>
-
-  <!-- this is JavaScript to display stuff -->
-  <script>
-  const downloads = ('<p> <a class="downloadables" href="http://www.minecraftskins.com/"target="_blank">The Skindex-For All Your Minecraft Fashion Needs</a>
-  </p>
-
-  <p>
-    <a class="downloadables" href="http://www.minecrafttexturepacks.com/"target="_blank">Minecraft Texture Packs</a></p>')
-    </script>
-
 
 <section>
 <!-- these are links -->
@@ -59,7 +50,7 @@
   </p>
 
   <p>
-    <a class="social media" href=" https://www.youtube.com/user/FyreUK"target="_blank">FyreUk's YouTube Channel</a>
+    <a class="social_media" href=" https://www.youtube.com/user/FyreUK"target="_blank">FyreUk's YouTube Channel</a>
   </p>
 
   <p>
@@ -67,19 +58,19 @@
   </p>
 
   <p>
-    <a class="social media"href="https://www.youtube.com/user/RageElixir">RageElixir's YouTube channel</a>
+    <a class="social_media"href="https://www.youtube.com/user/RageElixir">RageElixir's YouTube channel</a>
   </p>
 
   <p>
-    <a class="social media"href="https://twitter.com/Minecraft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Minecraft on Twitter</a>
+    <a class="social_media"href="https://twitter.com/Minecraft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Minecraft on Twitter</a>
   </p>
 
   <p>
-    <a class="social media"href="https://www.facebook.com/minecraft/">Minecraft on Facebook</a>
+    <a class="social_media"href="https://www.facebook.com/minecraft/">Minecraft on Facebook</a>
   </p>
 
   <p>
-    <a class="social media"href="https://www.youtube.com/user/TheDiamondMinecart">DanTDM's YouTube channel</a>
+    <a class="social_media"href="https://www.youtube.com/user/TheDiamondMinecart">DanTDM's YouTube channel</a>
   </p>
 
   <p>
@@ -100,4 +91,14 @@
            <h4><whitespace>Copyright: Sullivan Stilson- Last Updated: 12/29/17</h6>
            </footer>
            <!-- this is the footer -->
+<script>
+  function zap() {
+    stylesheet.insertRule(".downloadables { display: none;}", 0);
+  }
+</script>
 </body>
+<script>
+const styles = Stylesheet.create({
+  container: {
+      displayDownloadables: 'display: none;',
+      </script>
