@@ -50,3 +50,9 @@ footer{
     border: 2PX solid black;
     padding: 3px;
 }
+
+.different{
+    margin: 0px;
+    color: rgb(233, 30, 40);
+    text-decoration: none;
+}
