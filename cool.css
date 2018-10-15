@@ -47,5 +47,6 @@ a{
 }
 
 footer{
-    border: 2PX solid black
+    border: 2PX solid black;
+    padding: 3px;
 }
