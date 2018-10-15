@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    border: black
+}
+
+nav{
+    text-align: center;
+    border: 2px solid black;
+    width: 900px;
+    margin: auto auto 8px;
+}
+
+a{
+    margin: 90px;
+    color: rgb(233, 30, 40);
+    text-decoration: none;
+}
+
+.showoff{
+    width: 500px;
+    border: 2px solid turquoise;
+    padding: 4px;
+    margin: 5px;
+    float: left;
+}
+
+.display{
+    border: 2px solid teal;
+}
+
+.info{
+
+}
+.KILL_THE_FLOATS::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about_me{
+    border: 2px solid black;
+    padding: 3px;
+}
